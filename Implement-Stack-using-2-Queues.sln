@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implement-Stack-using-2-Queues", "Implement-Stack-using-2-Queues\Implement-Stack-using-2-Queues.csproj", "{08C87F9F-04AE-4A63-9E8C-C0EB6A7F373E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implement-Stack-using-2-Queues-UnitTestProject", "Implement-Stack-using-2-Queues-UnitTestProject\Implement-Stack-using-2-Queues-UnitTestProject.csproj", "{31526604-DDD0-42A0-972F-8827147A075A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{08C87F9F-04AE-4A63-9E8C-C0EB6A7F373E} = {08C87F9F-04AE-4A63-9E8C-C0EB6A7F373E}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{08C87F9F-04AE-4A63-9E8C-C0EB6A7F373E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08C87F9F-04AE-4A63-9E8C-C0EB6A7F373E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08C87F9F-04AE-4A63-9E8C-C0EB6A7F373E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31526604-DDD0-42A0-972F-8827147A075A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31526604-DDD0-42A0-972F-8827147A075A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31526604-DDD0-42A0-972F-8827147A075A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31526604-DDD0-42A0-972F-8827147A075A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
